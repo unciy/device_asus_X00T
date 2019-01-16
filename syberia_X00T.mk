@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/common.mk)
 
 # Inherit from X00T device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -36,6 +36,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-asus
 TARGET_VENDOR := asus
 TARGET_VENDOR_PRODUCT_NAME := X00T
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRIVATE_BUILD_DESC="sdm660_64-user 8.1.0 OPM1 2305 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=crosshatch \
+    PRIVATE_BUILD_DESC="crosshatch-user 9 PQ1A.190105.004 5148680 release-keys"
 
-BUILD_FINGERPRINT := google/taimen/taimen:9/PQ1A.181205.002/5086253:user/release-keys
+BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ1A.190105.004/5148680:user/release-keys
