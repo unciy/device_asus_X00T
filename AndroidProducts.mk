@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/xtended_X00T.mk
+    $(LOCAL_DIR)/syberia_X00T.mk
