@@ -75,6 +75,9 @@
         <param key="input_mic_max_count" value="4"/>
     </config_params>
     <acdb_ids>
+        <device name="SND_DEVICE_IN_HANDSET_MIC" acdb_id="1"/>
+        <device name="SND_DEVICE_IN_HEADSET_MIC" acdb_id="1"/>
+        <device name="SND_DEVICE_IN_HANDSET_STEREO_DMIC" acdb_id="1"/>
         <!-- Huaqin add for distinguish normal speaker and voice speaker id at 2018/03/07 start -->
         <device name="SND_DEVICE_OUT_SPEAKER" acdb_id="15"/>
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER_2" acdb_id="14"/>
