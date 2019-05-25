@@ -38,6 +38,5 @@ TARGET_VENDOR_PRODUCT_NAME := X00T
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=crosshatch \
-    PRIVATE_BUILD_DESC="crosshatch-user 9 PQ1A.190105.004 5148680 release-keys"
-
-BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ1A.190105.004/5148680:user/release-keys
+    PRIVATE_BUILD_DESC="crosshatch-user 9 PQ3A.190505.002 5450365 release-keys"
+BUILD_FINGERPRINT := google/crosshatch/crosshatch:9/PQ3A.190505.002/5450365:user/release-keys
